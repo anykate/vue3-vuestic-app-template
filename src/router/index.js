@@ -57,7 +57,7 @@ const router = createRouter({
             }, 100)
         })
     },
-    linkExactActiveClass: 'border-indigo-700',
+    linkExactActiveClass: 'primary-color',
 })
 
 export default router
