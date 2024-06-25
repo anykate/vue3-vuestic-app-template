@@ -22,11 +22,13 @@ export const useCounterStore = defineStore('counter', {
         decrement() {
             let toast = useToast()
 
-            this.count--
+            if (this.count > 0) {
+                this.count--
 
-            toast.info('Counter decremented!', {
-                timeout: 1000,
-            })
+                toast.info('Counter decremented!', {
+                    timeout: 1000,
+                })
+            }
         },
     },
 })
