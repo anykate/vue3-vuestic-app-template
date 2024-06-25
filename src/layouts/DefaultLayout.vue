@@ -45,13 +45,12 @@ const menu = [
                 <VaSidebarItem
                     v-for="{ icon, title } in menu"
                     :key="icon"
+                    :to="{ name: title }"
                 >
                     <VaSidebarItemContent>
                         <VaIcon :name="icon" />
                         <VaSidebarItemTitle>
-                            <router-link :to="{ name: title }">
-                                {{ title }}
-                            </router-link>
+                            {{ title }}
                         </VaSidebarItemTitle>
                     </VaSidebarItemContent>
                 </VaSidebarItem>
