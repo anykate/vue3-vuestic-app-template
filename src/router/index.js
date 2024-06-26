@@ -12,7 +12,7 @@ const checkAuth = async (to, from) => {
 const routes = [
     {
         path: '/',
-        name: 'default',
+        name: 'Default',
         component: () => import('@/layouts/DefaultLayout.vue'),
         children: [
             {
@@ -30,7 +30,7 @@ const routes = [
     },
     {
         path: '/',
-        name: 'guest',
+        name: 'Guest',
         component: () => import('@/layouts/GuestLayout.vue'),
         children: [
             {
