@@ -17,7 +17,7 @@
         "primeflex": "^3.3.1",
         "vue": "^3.4.30",
         "vue-router": "^4.4.0",
-        "vuestic-ui": "^1.9.11"
+        "vuestic-ui": "^1.9.12"
     },
     "devDependencies": {
         "@devindex/vue-mask": "^2.0.3",
